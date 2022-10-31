@@ -1,0 +1,99 @@
+.textSmall {
+	font-family: Montserrat, sans-serif,sans-serif;
+	font-size: 0.9vw;
+	display: block;
+	margin: 20px;
+	line-height: 1.5;
+}
+
+.text {
+	font-family: Montserrat, sans-serif,sans-serif;
+	font-size: 1.2vw;
+	display: block;
+	margin: 20px;
+	line-height: 1.5;
+}
+
+.title {
+	font-family: Montserrat, sans-serif,sans-serif;
+	font-size: 1.7vw;
+	font-weight: bold;
+	margin: 20px;
+	color: #000080;
+}
+
+
+nav {
+	background: #FFFAFA;
+	width: 100%;
+	position: sticky;
+	top: 0px;
+	display: flex;
+	z-index: 2;
+	padding: 5px auto;
+}
+.navigation {
+	margin: 0px auto;
+	width: 50%
+}
+
+.navigation * {
+	font-family: Montserrat, sans-serif,sans-serif;
+	font-size: 1.5vw;
+	color: #000080;
+	width: 32%;	
+	float: left;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+.task {
+	background: #FFFFFF;
+	width: 80%;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+.image1 {
+	background-image: url('task1.png');
+	float: left;
+	background-size: cover;
+	background-position: center;
+	width: 20%;
+	height: 200px;
+	margin: 10px;
+}
+
+.image2 {
+	background-image: url('task2.png');
+	float: left;
+	background-size: cover;
+	background-position: center;
+	width: 20%;
+	height: 200px;
+	margin: 10px;
+}
+
+.example{
+	background: #FFFFF3;
+	border: 2px solid blue;
+	height: 400px;
+	width: 100%;
+	padding: 20px;
+	margin: 20px;
+}
+
+.output{
+	font-family: Montserrat, sans-serif,sans-serif;
+	font-size: 1.2vw;
+	display: block;
+	margin: 5px;
+	line-height: 1.5;
+.outputTask{
+	font-family: Montserrat, sans-serif,sans-serif;
+	font-size: 1.2vw;
+	display: block;
+	margin: 5px;
+	line-height: 1.5;
+}
